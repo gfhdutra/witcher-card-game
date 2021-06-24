@@ -21,6 +21,72 @@
       "constituicao": 60,
       "destreza": 85,
       "magia": 90
+    },
+    {
+      "nome": "Yennefer Vengerberg",
+      "id": "1C",
+      "trunfo": false,
+      "vencetrunfo": false,
+      "imagem": "/assets/card-front/heros/10190000-yennefer.jpg",
+      "forca": 55,
+      "constituicao": 70,
+      "destreza": 80,
+      "magia": 85
+    },
+    {
+      "nome": "Triss Merigold",
+      "id": "1D",
+      "trunfo": false,
+      "vencetrunfo": false,
+      "imagem": "/assets/card-front/heros/10120000-triss.jpg",
+      "forca": 60,
+      "constituicao": 70,
+      "destreza": 75,
+      "magia": 80
+    },
+    {
+      "nome": "Vesemir",
+      "id": "2A",
+      "trunfo": false,
+      "vencetrunfo": true,
+      "imagem": "/assets/card-front/heros/14760000-vesemir.jpg",
+      "forca": 70,
+      "constituicao": 70,
+      "destreza": 65,
+      "magia": 60
+    },
+    {
+      "nome": "Emiel Regis",
+      "id": "2B",
+      "trunfo": false,
+      "vencetrunfo": false,
+      "imagem": "/assets/card-front/heros/10100000-regis.jpg",
+      "forca": 90,
+      "constituicao": 90,
+      "destreza": 85,
+      "magia": 60
+    },
+    {
+      "nome": "Keira Metz",
+      "id": "2C",
+      "trunfo": false,
+      "vencetrunfo": false,
+      "imagem": "/assets/card-front/heros/10800000-keira.jpg",
+      "forca": 60,
+      "constituicao": 65,
+      "destreza": 75,
+      "magia": 75
+    },
+    {
+      "nome": "Avallac'h",
+      "id": "2D",
+      "trunfo": false,
+      "vencetrunfo": false,
+      "imagem": "/assets/card-front/heros/10180000-sage.jpg",
+      "forca": 60,
+      "constituicao": 65,
+      "destreza": 80,
+      "magia": 95
     }
   ],
   "deckViloes": [
@@ -45,6 +111,72 @@
       "constituicao": 85,
       "destreza": 70,
       "magia": 75
+    },
+    {
+      "nome": "Savolla",
+      "id": "3C",
+      "trunfo": false,
+      "vencetrunfo": false,
+      "imagem": "/assets/card-front/villains/17560000-savolla.jpg",
+      "forca": 60,
+      "constituicao": 70,
+      "destreza": 70,
+      "magia": 75
+    },
+    {
+      "nome": "Vilgefortz",
+      "id": "3D",
+      "trunfo": false,
+      "vencetrunfo": false,
+      "imagem": "/assets/card-front/villains/12890000-vilgefortz.jpg",
+      "forca": 60,
+      "constituicao": 75,
+      "destreza": 70,
+      "magia": 80
+    },
+    {
+      "nome": "Dettlaff",
+      "id": "4A",
+      "trunfo": false,
+      "vencetrunfo": true,
+      "imagem": "/assets/card-front/villains/13720000-dettlaff.jpg",
+      "forca": 90,
+      "constituicao": 90,
+      "destreza": 75,
+      "magia": 70
+    },
+    {
+      "nome": "Imlerith",
+      "id": "4B",
+      "trunfo": false,
+      "vencetrunfo": false,
+      "imagem": "/assets/card-front/villains/16520000-imlerith.jpg",
+      "forca": 90,
+      "constituicao": 85,
+      "destreza": 60,
+      "magia": 55
+    },
+    {
+      "nome": "Olgierd von Everec",
+      "id": "4C",
+      "trunfo": false,
+      "vencetrunfo": false,
+      "imagem": "/assets/card-front/villains/17850000-olgierd.jpg",
+      "forca": 80,
+      "constituicao": 95,
+      "destreza": 85,
+      "magia": 50
+    },
+    {
+      "nome": "The Professor",
+      "id": "4D",
+      "trunfo": false,
+      "vencetrunfo": false,
+      "imagem": "/assets/card-front/villains/18160000-professor.jpg",
+      "forca": 50,
+      "constituicao": 65,
+      "destreza": 65,
+      "magia": 50
     }
   ]
 }
