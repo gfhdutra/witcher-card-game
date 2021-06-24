@@ -1,0 +1,50 @@
+{
+  "deckHerois": [
+    {
+      "nome": "Geralt de Rívia",
+      "id": "1A",
+      "trunfo": false,
+      "vencetrunfo": true,
+      "imagem": "/assets/card-front/heros/10090000-geralt.jpg",
+      "forca": 75,
+      "constituicao": 80,
+      "destreza": 80,
+      "magia": 60
+    },
+    {
+      "nome": "Cirilla Fiona",
+      "id": "1B",
+      "trunfo": true,
+      "vencetrunfo": false,
+      "imagem": "/assets/card-front/heros/10070000-ciri-trunfo.jpg",
+      "forca": 50,
+      "constituicao": 60,
+      "destreza": 85,
+      "magia": 90
+    }
+  ],
+  "deckViloes": [
+    {
+      "nome": "Gaunter O'Dim",
+      "id": "3A",
+      "trunfo": false,
+      "vencetrunfo": true,
+      "imagem": "/assets/card-front/villains/11520000-gaunter.jpg",
+      "forca": 60,
+      "constituicao": 50,
+      "destreza": 70,
+      "magia": 100
+    },
+    {
+      "nome": "Eredin Glas",
+      "id": "3B",
+      "trunfo": false,
+      "vencetrunfo": false,
+      "imagem": "/assets/card-front/villains/11270000-eredin.jpg",
+      "forca": 80,
+      "constituicao": 85,
+      "destreza": 70,
+      "magia": 75
+    }
+  ]
+}

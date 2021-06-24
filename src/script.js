@@ -178,7 +178,15 @@ var cartaProfessor = {
 };
 var deckViloes = [cartaGaunter, cartaEredin, cartaSavolla, cartaVilgefortz, cartaDettlaff, cartaImlerith, cartaOlgierd, cartaProfessor];
 
-var deckCartas = deckHerois.concat(deckViloes);
+// var deckCartas = deckHerois.concat(deckViloes);
+
+fetch("cards.json")
+  .then(response => response.json())
+  .then(data => {
+    let deckHerois = data.deckHerois;
+    let deckViloes = data.deckViloes;
+    deckCartas = deckHerois.concat(deckViloes);
+  })
 
 var listaNomesAdversarios = ["Robson", "Gilmar", "Bruno", "Felipe", "Amanda", "Jéssica", "Sofia", "Marina"];
 
