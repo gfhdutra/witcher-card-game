@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <title>The Witcher - Card Game</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1 class="page-title">The Witcher - Card Game</h1><br>
+    <button onclick="iniciarPartida()" id="btnIniciarPartida">Iniciar Partida</button>
+    <button onclick="regras()" id="btnRegras">Regras</button>
+    <button onclick="voltarAoJogo()" id="btnVoltarAoJogo" style="display:none">Voltar ao jogo</button>
+
+    <form id="form">
+      <h2 id='textoPrincipal'></h2>
+      <div class="wrapper"><br>
+        <div id="regras"></div>
+
+        <form>
+          <div id='radioGroup' class="radio-group" style='display:none'>
+            <input type="radio" id="btnForca" name='atributos'>
+            <label for="btnForca">FORÇA</label>
+            <input type="radio" id="btnConstituicao" name='atributos'>
+            <label for="btnConstituicao">CONSTITUIÇÃO</label>
+            <input type="radio" id="btnDestreza" name='atributos'>
+            <label for="btnDestreza">DESTREZA</label>
+            <input type="radio" id="btnMagia" name='atributos'>
+            <label for="btnMagia">MAGIA</label>
+          </div>
+        </form><br>
+
+        <div id="placar"></div>
+        <div id="quantidade-cartas"></div><br>
+        <div id="cartas">
+          <div id="carta-jogador" class="carta"></div>
+        </div>
+
+        <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+        <div id="resultado"></div>
+        <button type="button" id="btnProximaRodada" onclick="proximaRodada()" 
+        disabled="true">Proxima rodada</button>
+        <div id='cartas' style='display: none'>
+          <div id="carta-maquina" class="carta"></div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
