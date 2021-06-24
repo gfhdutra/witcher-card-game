@@ -4,4 +4,4 @@ Jogo de cartas no estilo Super Trunfo com temática do universo The Witcher, des
 
 O projeto foi desenvolvido somente com tecnologias básicas de front-end, como HTML, CSS e JavaScript.
 
-Disponível em:
+Disponível em: [witcher-card-game.netlify.app](https://witcher-card-game.netlify.app/)
